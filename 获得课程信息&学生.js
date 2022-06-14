@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 import fs from 'fs'
 
+
 //写入的课程txt
 const writeStream_COURSE = fs.createWriteStream('C:\\Users\\AIERXUAN\\Desktop\\111COURSE.txt', {
   encoding: "utf8",
